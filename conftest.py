@@ -7,3 +7,4 @@ def setup():
     driver = webdriver.Chrome()
     yield driver
     driver.quit()
+

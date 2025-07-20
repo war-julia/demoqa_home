@@ -27,3 +27,4 @@ def test_password_field_existence(setup):
     swag_labs_page.visit()
 
     assert swag_labs_page.exist_password_field(), "Поле пароля не найдено на странице"
+

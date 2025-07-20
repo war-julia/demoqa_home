@@ -22,3 +22,4 @@ class SwagLabs(BasePage):
         except NoSuchElementException:
             return False
         return True
+
